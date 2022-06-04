@@ -18,6 +18,7 @@ body {
   .container {
     width: 1200px;
     padding: 0 15px;
+    align-items: center;
     margin: 0 auto;
   }
   .section {
@@ -94,16 +95,17 @@ body {
     line-height: 31px;
   }
   .head {
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+     url("../images/Img.jpg");
     height: 600px;
     top: 80px;
     background-color: #2f303a;
-    background-image: url("../images/Img.jpg");
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: contain;
-    object-fit: cover;
-  
-    
+    background-size: cover;
+   
   }
   .head-text {
     width: 696px;
@@ -278,7 +280,6 @@ body {
   .business-item {
     width: 1170px;
     height: 1360px;
-    display: block;
     margin: 0 auto;
    }
    .business-photos {
@@ -286,9 +287,8 @@ body {
     flex-wrap:wrap;
     gap: 30px;
     justify-content: space-between;
-    
-    
-   }
+}
+
   .projects {
     font-weight: 700;
     font-size: 18px;
