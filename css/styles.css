@@ -265,15 +265,26 @@ body {
   display: flex;
   justify-content:space-between;
   align-items: center;
-  padding-left: 32px;
-  padding-right: 32p;
-  
-
+ 
+}
+.social-list_link {
+display: flex;
+width: 44px;
+height: 44px;
+background-color:#fff;
+border-radius: 50%;
+align-items: center;
+justify-content: center;
 }
 .social-icon {
   width: 20px;
   height: 20px;
   
+}
+.social-list_link :hover,
+.social-list_link :focus {
+  fill: #fff;
+  background-color: #2196f3;
 }
     .person {
     font-weight: 500;
